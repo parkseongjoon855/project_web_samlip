@@ -25,13 +25,49 @@
 #wrap main .bg {
     background-color:#fcfcfc;
     border:1px solid #fcfcfc;
+    padding:80px 0;
 }
 #wrap main .bg .ir_list {
-    overflow:hidden;
+    /* overflow:hidden; */
+    width:1280px; height:250px;
+    width:1280px;
+    margin:0 auto;
+    padding:0 80px;
 }
 #wrap main .bg .ir_list a {
+    width:260px; height:250px;
+    text-align:left;
+    padding:20px;
+    margin-right:26.67px;
+    background-repeat:no-repeat;
+    background-position:85% 87%;
     float:left;
+    background-color:#f5f5f5;
+    border:1px solid #ddd
 }
-#wrap main .bg .ir_list a h2 {}
-#wrap main .bg .ir_list p {}
+#wrap main .bg .ir_list a:hover {
+    border:1px solid #138fbf;
+    box-shadow:0 0 30px rbga(0,0,0,0.2);
+    background-color:#fff
+}
+#wrap main .bg .ir_list a:nth-child(1) {
+    background-image:url(../images/ir/ir_01.png);
+}
+#wrap main .bg .ir_list a:nth-child(2) {
+    background-image:url(../images/ir/ir_02.png);
+}
+#wrap main .bg .ir_list a:nth-child(3) {
+    background-image:url(../images/ir/ir_03.png);
+}
+#wrap main .bg .ir_list a:last-child {margin-right:0; background-image:url(../images/ir/ir_04.png);}
+#wrap main .bg .ir_list a h2 {
+    margin-bottom:12px;
+    font-size:1.5rem;
+    font-weight:700px;
+}
+#wrap main .bg .ir_list p {
+    font-size:1rem;
+    font-weight:500px;
+    letter-spacing:150%;
+}
 #wrap main .bg .ir_list p {}
