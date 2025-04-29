@@ -1,0 +1,27 @@
+#wrap main .gnb_2 {
+    margin:20px;
+    font-size:0.75rem;
+    text-align:right;
+}
+#wrap main .gnb_2 a {}
+#wrap main .gnb_2 a img {}
+#wrap main .gnb_2 a img p {}
+#wrap main h2 {}
+#wrap main p {}
+#wrap main #wrap_2 .youtube {}
+#wrap main #wrap_2 .youtube a img {
+    width:200px; height:200px;
+}
+#wrap main #wrap_2 .youtube a h2 {}
+#wrap main #wrap_2 .youtube p {}
+#wrap main #wrap_2 .instagram {}
+#wrap main #wrap_2 .instagram img {
+    width:200px; height:200px;
+}
+#wrap main #wrap_2 .instagram p {}
+#wrap main #wrap_2 .facebook  {}
+#wrap main #wrap_2 .facebook a h2 {}
+#wrap main #wrap_2 .facebook a img {
+    width:200px; height:200px;
+}
+#wrap main #wrap_2 .facebook p  {}
