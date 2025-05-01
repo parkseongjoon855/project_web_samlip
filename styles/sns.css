@@ -22,7 +22,6 @@
     padding:80px 0;
 }
 #wrap main .bg .container {
-    background-color:yellow;
     width:1280px; margin:0 auto;
     display:flex; flex-flow:row nowrap;
     justify-content:space-between;
