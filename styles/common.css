@@ -1,9 +1,11 @@
 /* index,모든 sub 적용할 공통 header,footer styles common.css */
-#wrap {}
+#wrap {
+    min-width:1900px;
+}
 #wrap header {
     position:fixed;
     z-index:900; /* -1~0~999 단위없고 중첩순서만 결정하는 position 선택속성 */
-    width:100%;
+    width:100%; min-width:1200px;
     height:92px;
     padding:0 60px;
     /* container(header) item(h1,nav,right_menu) */
